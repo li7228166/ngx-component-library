@@ -1,0 +1,22 @@
+{
+  "name": "ngx-component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li7228166/ngx-component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/li7228166/ngx-component-library/issues"
+  },
+  "homepage": "https://github.com/li7228166/ngx-component-library#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
