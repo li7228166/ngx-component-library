@@ -1,7 +1,1 @@
-[
-  {
-    "name": "富文本编辑器",
-    "desc": "内部封装summernote编辑器",
-    "example": "<editor name='edit' [(ngModel)]='data.edit'></edit>"
-  }
-]
+[{"name":"富文本编辑器","directory":"editor","desc":"内部封装summernote编辑器","example":"<editor name='edit' [(ngModel)]='data.edit'></edit>"}]
