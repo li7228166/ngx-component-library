@@ -1,0 +1,6 @@
+{
+  "name": "富文本编辑器",
+  "directory": "lfEditor",
+  "desc": "内部封装summernote编辑器",
+  "example": "<lfEditor name='edit' [(ngModel)]='data.edit'></lfEditor>"
+}

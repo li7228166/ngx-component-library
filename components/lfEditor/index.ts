@@ -8,16 +8,16 @@ import {FileService} from "@app/services/file";
 declare const $: any;
 
 @Component({
-    selector: 'editor',
+    selector: 'lfEditor',
     templateUrl: './template.html',
     styleUrls: ['./style.less'],
     providers: [{
         provide: NG_VALUE_ACCESSOR,
-        useExisting: forwardRef(() => EditorComponent),
+        useExisting: forwardRef(() => LfEditorComponent),
         multi: true
     }]
 })
-export class EditorComponent implements OnInit, OnDestroy {
+export class LfEditorComponent implements OnInit, OnDestroy {
     onValueChange: any;
     value: any;
     element: any;
@@ -29,7 +29,7 @@ export class EditorComponent implements OnInit, OnDestroy {
 
     ngOnInit(): void {
         const self = this;
-        this.editor = this.element.find('.editor');
+        this.editor = this.element.find('.lfEditor');
         this.editor.summernote({
             lang: 'zh-CN',
             height: 400,
